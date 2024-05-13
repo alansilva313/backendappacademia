@@ -1,0 +1,37 @@
+
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "mysql"
+  url      = env("DATABASE_URL")
+}
+
+
+model Users {
+  id String @id @default(uuid())
+  name String
+  email String @unique
+  tel String
+  password String
+  permission Boolean
+  objetivo Medidas[]
+  
+}
+
+model Medidas{
+  id String @id @default(uuid())
+  peso Float
+  altura Float
+  users Users @relation(fields: [id_user], references: [id])
+  id_user String
+}
+
+model Objetivo{
+  id String @id @default(uuid())
+  title String
+
+  @@map("objetivos")
+}
