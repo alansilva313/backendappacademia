@@ -45,5 +45,8 @@ Na raiz do projeto será necessário criar o arquivo .env pegar os dados que est
 
 Após realizar esses passos será necessário sincronizar o Prisma com o banco de dados.
 
-executar o seguinte codigo no terminal 
+executar o seguinte codigo no terminal npx prisma migrate dev.
+
+
+Observação: É ncessário que o seu servidor local esteja startado!
 
