@@ -33,3 +33,17 @@ Prisma é compatível com vários bancos de dados, incluindo PostgreSQL, MySQL, 
 
 Foi utilizado uma estrutura parecida com o MVC (Model, View e Controller) porém quando usamos o prisma eliminamos em parte a necessidade do model, já que temos o Prisma Client que faz essa comunicação com o arquivo schema.prisma onde estão nossas models ou tabelas.
  Também eliminamos nessa parte a utilização da View já que a parte de frontend fica com o aplicativo.
+
+# GUIA DE UTILIZAÇÃO
+
+- Ao fazer o git clone será necessário acessar a pagina da aplicação e no terminal executar o NPM INSTALL para instalar todas as dependencias.
+Na raiz do projeto será necessário criar o arquivo .env pegar os dados que estão dentro de .env_ e colocar no .env para que a aplicação rode.
+
+# REQUISITOS
+- É necessário possuir o node instalador e também ter um servidor HTTP na maquina como o XAMPP OU WAMPSERVER para iniciar o banco local.
+
+
+Após realizar esses passos será necessário sincronizar o Prisma com o banco de dados.
+
+executar o seguinte codigo no terminal 
+
