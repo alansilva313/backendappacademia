@@ -50,3 +50,9 @@ executar o seguinte codigo no terminal npx prisma migrate dev.
 
 Observação: É necessário que o seu servidor local esteja startado!
 
+
+
+# EXECUTAR O PROJETO
+
+- Para executar a aplicação opós concluir os passos anteriores basta no terminal na raiz da aplicação executar o seuinte comando: npm run dev 
+
