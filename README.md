@@ -48,5 +48,5 @@ Após realizar esses passos será necessário sincronizar o Prisma com o banco d
 executar o seguinte codigo no terminal npx prisma migrate dev.
 
 
-Observação: É ncessário que o seu servidor local esteja startado!
+Observação: É necessário que o seu servidor local esteja startado!
 
