@@ -15,9 +15,11 @@ model Users {
   name String
   email String @unique
   tel String
+  nascimento DateTime
   password String
   permission Boolean
   objetivo Medidas[]
+  exercicio Exercicio[]
   
 }
 
@@ -34,4 +36,20 @@ model Objetivo{
   title String
 
   @@map("objetivos")
+}
+
+
+model Exercicio{
+  id String @id @default(uuid())
+  title String
+  observacao String?
+  sets Int
+  reps Int
+  weight Float
+  diaSemana String
+  user Users @relation(fields: [id_user], references: [id])
+  id_user String
+
+
+  @@map("exercicios")
 }

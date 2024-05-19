@@ -12,6 +12,7 @@ module.exports = class Autenticacao{
                     password: password
                 },
                 select: {
+                    id: true,
                     name: true,
                     email: true,
                     tel: true,
