@@ -40,7 +40,7 @@ Foi utilizado uma estrutura parecida com o MVC (Model, View e Controller) porém
 Na raiz do projeto será necessário criar o arquivo .env pegar os dados que estão dentro de .env_ e colocar no .env para que a aplicação rode.
 
 # REQUISITOS
-- É necessário possuir o node instalador e também ter um servidor HTTP na maquina como o XAMPP OU WAMPSERVER para iniciar o banco local.
+- É necessário possuir o node instalado e também ter um servidor HTTP na maquina como o XAMPP OU WAMPSERVER para iniciar o servidor local.
 
 
 Após realizar esses passos será necessário sincronizar o Prisma com o banco de dados.
